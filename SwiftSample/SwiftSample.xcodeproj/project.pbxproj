@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		0CC1BA491F384BBA00F7975F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA481F384BBA00F7975F /* AppDelegate.swift */; };
-		0CC1BA4B1F384BBA00F7975F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA4A1F384BBA00F7975F /* ViewController.swift */; };
 		0CC1BA4E1F384BBA00F7975F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1BA4C1F384BBA00F7975F /* Main.storyboard */; };
 		0CC1BA501F384BBA00F7975F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1BA4F1F384BBA00F7975F /* Assets.xcassets */; };
 		0CC1BA531F384BBA00F7975F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC1BA511F384BBA00F7975F /* LaunchScreen.storyboard */; };
+		0CC1BA5D1F384D1900F7975F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1BA5B1F384D1900F7975F /* Alamofire.framework */; };
+		0CC1BA5E1F384D1900F7975F /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC1BA5C1F384D1900F7975F /* IQKeyboardManagerSwift.framework */; };
+		0CC1BA681F3851AC00F7975F /* HuiBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA671F3851AC00F7975F /* HuiBaseViewController.swift */; };
+		0CC1BA6C1F3851E600F7975F /* HuiNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA6B1F3851E600F7975F /* HuiNavigationController.swift */; };
+		0CC1BA6E1F38520500F7975F /* HuiTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA6D1F38520500F7975F /* HuiTabBarController.swift */; };
+		0CC1BA701F38522C00F7975F /* HuiHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA6F1F38522C00F7975F /* HuiHomeViewController.swift */; };
+		0CC1BA731F38526500F7975F /* HuiSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA721F38526500F7975F /* HuiSettingViewController.swift */; };
+		0CC1BA751F38526F00F7975F /* HuiMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC1BA741F38526F00F7975F /* HuiMoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CC1BA451F384BBA00F7975F /* SwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC1BA481F384BBA00F7975F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CC1BA4A1F384BBA00F7975F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0CC1BA4D1F384BBA00F7975F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CC1BA4F1F384BBA00F7975F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC1BA521F384BBA00F7975F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC1BA541F384BBA00F7975F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC1BA5B1F384D1900F7975F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		0CC1BA5C1F384D1900F7975F /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
+		0CC1BA671F3851AC00F7975F /* HuiBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuiBaseViewController.swift; sourceTree = "<group>"; };
+		0CC1BA6B1F3851E600F7975F /* HuiNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuiNavigationController.swift; sourceTree = "<group>"; };
+		0CC1BA6D1F38520500F7975F /* HuiTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuiTabBarController.swift; sourceTree = "<group>"; };
+		0CC1BA6F1F38522C00F7975F /* HuiHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuiHomeViewController.swift; sourceTree = "<group>"; };
+		0CC1BA721F38526500F7975F /* HuiSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuiSettingViewController.swift; sourceTree = "<group>"; };
+		0CC1BA741F38526F00F7975F /* HuiMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuiMoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CC1BA5D1F384D1900F7975F /* Alamofire.framework in Frameworks */,
+				0CC1BA5E1F384D1900F7975F /* IQKeyboardManagerSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,7 @@
 			children = (
 				0CC1BA471F384BBA00F7975F /* SwiftSample */,
 				0CC1BA461F384BBA00F7975F /* Products */,
+				0CC1BA5A1F384D1800F7975F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,91 @@
 			isa = PBXGroup;
 			children = (
 				0CC1BA481F384BBA00F7975F /* AppDelegate.swift */,
-				0CC1BA4A1F384BBA00F7975F /* ViewController.swift */,
+				0CC1BA601F38517C00F7975F /* Classes */,
 				0CC1BA4C1F384BBA00F7975F /* Main.storyboard */,
 				0CC1BA4F1F384BBA00F7975F /* Assets.xcassets */,
 				0CC1BA511F384BBA00F7975F /* LaunchScreen.storyboard */,
 				0CC1BA541F384BBA00F7975F /* Info.plist */,
 			);
 			path = SwiftSample;
+			sourceTree = "<group>";
+		};
+		0CC1BA5A1F384D1800F7975F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1BA5B1F384D1900F7975F /* Alamofire.framework */,
+				0CC1BA5C1F384D1900F7975F /* IQKeyboardManagerSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CC1BA601F38517C00F7975F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1BA611F38517C00F7975F /* Main */,
+				0CC1BA621F38517C00F7975F /* Module */,
+				0CC1BA651F38517C00F7975F /* Network */,
+				0CC1BA661F38517C00F7975F /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0CC1BA611F38517C00F7975F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1BA671F3851AC00F7975F /* HuiBaseViewController.swift */,
+				0CC1BA6B1F3851E600F7975F /* HuiNavigationController.swift */,
+				0CC1BA6D1F38520500F7975F /* HuiTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0CC1BA621F38517C00F7975F /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1BA631F38517C00F7975F /* Home */,
+				0CC1BA641F38517C00F7975F /* Setting */,
+				0CC1BA711F38525100F7975F /* More */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0CC1BA631F38517C00F7975F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1BA6F1F38522C00F7975F /* HuiHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0CC1BA641F38517C00F7975F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1BA721F38526500F7975F /* HuiSettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0CC1BA651F38517C00F7975F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0CC1BA661F38517C00F7975F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0CC1BA711F38525100F7975F /* More */ = {
+			isa = PBXGroup;
+			children = (
+				0CC1BA741F38526F00F7975F /* HuiMoreViewController.swift */,
+			);
+			path = More;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +169,7 @@
 				0CC1BA411F384BBA00F7975F /* Sources */,
 				0CC1BA421F384BBA00F7975F /* Frameworks */,
 				0CC1BA431F384BBA00F7975F /* Resources */,
+				0CC1BA5F1F384D4F00F7975F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -90,6 +186,7 @@
 		0CC1BA3D1F384BBA00F7975F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Hui;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Hui;
@@ -132,13 +229,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CC1BA5F1F384D4F00F7975F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CC1BA411F384BBA00F7975F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CC1BA4B1F384BBA00F7975F /* ViewController.swift in Sources */,
+				0CC1BA681F3851AC00F7975F /* HuiBaseViewController.swift in Sources */,
+				0CC1BA6C1F3851E600F7975F /* HuiNavigationController.swift in Sources */,
+				0CC1BA6E1F38520500F7975F /* HuiTabBarController.swift in Sources */,
 				0CC1BA491F384BBA00F7975F /* AppDelegate.swift in Sources */,
+				0CC1BA731F38526500F7975F /* HuiSettingViewController.swift in Sources */,
+				0CC1BA751F38526F00F7975F /* HuiMoreViewController.swift in Sources */,
+				0CC1BA701F38522C00F7975F /* HuiHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +384,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GF7TW6ZNF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hui.SwiftSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +402,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GF7TW6ZNF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SwiftSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hui.SwiftSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
